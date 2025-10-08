@@ -24,6 +24,7 @@ if response.status_code==200:
 # a BeautifulSoup Tag object that can be searched independently.
     with open("hotel.csv","w") as file_csv:
         csv.writter(file_csv)
+        print()
 
 
 
